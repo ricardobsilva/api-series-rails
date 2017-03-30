@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+System for evaluation of series. Studies on APIs.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.4.0
 
-* System dependencies
+* Rails version 5.0.2
 
-* Configuration
+* Use of DeviseTokenAuth and omniauthable
 
-* Database creation
+* Used scaffold generator
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Curiosity :D
 
 * ...
