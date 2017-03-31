@@ -6,6 +6,7 @@ Rails.application.routes.draw do
         resources :comments
         resources :series
         resources :users, only: [:create, :index]
+        post "/auth", to: "users#auth"
     end
   end
 
