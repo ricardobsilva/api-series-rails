@@ -1,7 +1,6 @@
-class SeriesController < ApplicationController
+class Api::V1::SeriesController < ApplicationController
   before_action :set_series, only: [:show, :update, :destroy]
 
-  # GET /series
   def index
     @series = Serie.all
 
