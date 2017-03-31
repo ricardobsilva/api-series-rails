@@ -20,7 +20,8 @@ gem 'puma', '~> 3.0'
 # gem 'bcrypt', '~> 3.1.7'
 
 #gem 'devise_token_auth'
-
+gem 'devise'
+gem 'active_model_serializers', '~> 0.10.0'
 gem 'omniauth'
 
 # Use Capistrano for deployment
